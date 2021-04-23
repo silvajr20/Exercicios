@@ -13,6 +13,7 @@ public class Multiplos {
 		return soma;
 	}
 	
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Insira o valor X: ");
